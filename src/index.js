@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { IntlProvider, } from 'react-intl'
 import { BrowserRouter, } from 'react-router-dom'
-import { Link, Route, Switch, } from 'lib/react-router-dom-intl'
+import { Link, Route, Switch, } from 'lib'
 // import { Link, } from 'lib'
 
 const messages = {
