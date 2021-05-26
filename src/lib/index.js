@@ -1,14 +1,9 @@
 import React from 'react'
 import { useIntl, } from 'react-intl'
 import {
-  Route as RRDRoute,
   Link as RRDLink,
   matchPath, useLocation,
 } from 'react-router-dom'
-
-export function Route (props) {
-  return <RRDRoute {...props} />
-}
 
 export function Link ({ to, ...props }) {
   const intl = useIntl()
