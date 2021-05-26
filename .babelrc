@@ -1,0 +1,4 @@
+{
+  // "presets": ["react-app"]
+  "presets": [["react-app", { "absoluteRuntime": false, "flow": false, "typescript": false }]]
+}
