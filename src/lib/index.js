@@ -10,7 +10,6 @@ export function Link ({ to, ...props }) {
 
   return (
     <RRDLink to={intl.formatMessage({ id: to, defaultMessage: to })} {...props} />
-    // <RRDLink to={intl.formatMessage({ id: to, defaultMessage: to })} {...props} />
   )
 }
 
